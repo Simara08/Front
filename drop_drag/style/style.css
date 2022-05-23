@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dropElm{
+    width: 70%;
+    height: 400px;
+    text-align: center;
+    background-color: gray;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+i{
+    font-size: 50px;
+}
+.table-dark{
+   
+    margin: 0 auto;
+    margin-top: 50px;
+}
+input{
+    display: none;
+}
+.button{
+    color: red;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#removeall{
+    color: #fff;
+    background-color: red;
+    border: none;
+    outline: none;
+    padding: 16px 25px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
